@@ -1,0 +1,46 @@
+.card {
+  border: 2px solid #000;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 500px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.foto {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.header-texto .nome {
+  margin: 0;
+  font-size: 22px;
+}
+
+.idade-genero {
+  margin: 4px 0 0 0;
+  font-size: 16px;
+}
+
+.divisor {
+  border-top: 2px dashed #999;
+  margin: 16px 0;
+}
+
+.informacoes p {
+  display: flex;
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.informacoes p strong {
+  width: 90px;
+}
